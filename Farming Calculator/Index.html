@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farming Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="header">
+        <h1 id="title">Farming Calculator</h1>
+    </div>
+    <div class="main">
+        <div class="input_take">
+            <input id="input" type="number" placeholder="Enter The Length">
+            <br>
+            <br>
+            <input onclick="calculate()" id="btn" type="button" value="Calculate">
+        </div>
+        <br>
+        <div class="results">
+            <p>Area Of The Farm Is:</p>
+            <br>
+            <p id="result_area"></p>
+            <br>
+            <br>
+            <p>Perimeter Of The Farm Is:</p>
+            <br>
+            <p id="result_peri"></p>
+        </div>
+    </div>
+</body>
+<script src="Script.js"></script>
+</html>
